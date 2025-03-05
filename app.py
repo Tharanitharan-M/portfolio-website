@@ -14,7 +14,7 @@ def home():
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    api = "AIzaSyBXuKdJ_1NHsNLsOUeAO7MlJyagrxNmb6Y"
+    api = "###" # Your API key here
 
     genai.configure(
         api_key=api
